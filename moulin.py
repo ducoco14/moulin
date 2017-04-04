@@ -507,8 +507,6 @@ def deplacer(event):
 
 
 def annuler_selection(event):
-    if debug == "true":
-        print("YEP")
     plateau.delete(detruire)
     plateau.bind("<Button-1>", saisir)
 
